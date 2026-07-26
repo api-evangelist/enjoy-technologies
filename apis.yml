@@ -1,7 +1,25 @@
 aid: enjoy-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enjoy-technologies.png
 name: Enjoy Technologies
-description: Enjoy Technologies is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Enjoy Technology (Enjoy Technologies) was a "commerce at home" mobile-retail startup
+  founded in 2014 by Ron Johnson, the former Apple senior vice president of retail and JCPenney CEO,
+  and headquartered in Palo Alto, California. The company brought the retail store experience to
+  customers' homes, dispatching mobile experts to deliver, set up, and demonstrate consumer
+  electronics on behalf of partners such as carriers and device makers. Backed by Kleiner Perkins,
+  Oak Investment Partners, and Andreessen Horowitz (a16z), Enjoy went public via SPAC in 2021 and
+  declared bankruptcy in 2022, with its assets subsequently acquired. Enjoy never operated a public
+  developer program or API; this profile is retained as a historical portfolio-company record.
 url: https://raw.githubusercontent.com/api-evangelist/enjoy-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,29 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Declared bankruptcy in 2022; company website (enjoy.com) no longer resolves. No public
+  API or developer surface found during enrichment (2026-07-19).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Retail
+- Commerce
+- Mobile Commerce
+- Last Mile Delivery
+- Consumer Electronics
+- Logistics
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
